@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "name": "Apple iPhone 14",
+        "description": "Latest Apple smartphone with advanced features",
+        "available": true,
+        "price": 999.99
+    },
+    {
+        "id": 2,
+        "name": "Samsung Galaxy S23",
+        "description": "Flagship Samsung phone with high-end specs",
+        "available": true,
+        "price": 899.99
+    },
+    {
+        "id": 3,
+        "name": "Sony WH-1000XM5",
+        "description": "Noise-cancelling wireless headphones",
+        "available": false,
+        "price": 349.99
+    },
+    {
+        "id": 4,
+        "name": "Dell XPS 13",
+        "description": "Compact and powerful ultrabook laptop",
+        "available": true,
+        "price": 1199.99
+    },
+    {
+        "id": 5,
+        "name": "Amazon Echo Dot",
+        "description": "Smart speaker with Alexa voice assistant",
+        "available": true,
+        "price": 49.99
+    },
+    {
+        "id": 6,
+        "name": "Nintendo Switch",
+        "description": "Portable gaming console with versatile play modes",
+        "available": false,
+        "price": 299.99
+    },
+    {
+        "id": 7,
+        "name": "Fitbit Charge 5",
+        "description": "Advanced fitness tracker with health metrics",
+        "available": true,
+        "price": 179.99
+    },
+    {
+        "id": 8,
+        "name": "Canon EOS R6",
+        "description": "Professional mirrorless camera for photography",
+        "available": true,
+        "price": 2499.99
+    }
+]

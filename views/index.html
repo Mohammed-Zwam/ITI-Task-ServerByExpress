@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./assets/express.png" type="image/x-icon">
+    <title>Express Server API Documentation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Product API Endpoints</h1>
+
+        <div class="endpoint">
+            <h2>GET /api/products</h2>
+            <p>Retrieve all products</p>
+            <div class="example">
+                <h3>Example Request:</h3>
+                <code>GET http://localhost:3000/api/products</code>
+            </div>
+        </div>
+
+        <div class="endpoint">
+            <h2>GET /api/products/:id</h2>
+            <p>Retrieve a single product by ID</p>
+            <div class="example">
+                <h3>Example Request:</h3>
+                <code>GET http://localhost:3000/api/products/8</code>
+            </div>
+        </div>
+
+        <div class="endpoint">
+            <h2>POST /api/products</h2>
+            <p>Create a new product</p>
+            <div class="example">
+                <h3>Example Request:</h3>
+                <code>POST http://localhost:3000/api/products/add</code>
+                <h3>Request Body:</h3>
+                <pre>{
+    "name": "New Product",
+    "price": 99.99,
+    "description": "Product description"
+}</pre>
+            </div>
+        </div>
+
+        <div class="endpoint">
+            <h2>PUT /api/products/:id</h2>
+            <p>Update an existing product</p>
+            <div class="example">
+                <h3>Example Request:</h3>
+                <code>PUT http://localhost:3000/api/products/update/8</code>
+                <h3>Request Body:</h3>
+                <pre>{
+    "name": "Updated Product",
+    "price": 109.99
+}</pre>
+            </div>
+        </div>
+
+        <div class="endpoint">
+            <h2>DELETE /api/products/:id</h2>
+            <p>Delete a product</p>
+            <div class="example">
+                <h3>Example Request:</h3>
+                <code>DELETE http://localhost:3000/api/products/delete/8</code>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
